@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Clock from './components/Clock.jsx';
-import Calendar from './components/Calender.jsx';
 
 const h_style = {
   marginTop: '84px',
@@ -11,7 +10,7 @@ const h_style = {
   fontSize: '60px',
   fontWeight: 600,
   lineHeight: '34px',
-  marginLeft: '700px',
+  marginLeft: '500px',
   fontFamily: "Georgia, 'Times New Roman', Times, serif",
   justifyContent: 'center', 
 };
@@ -24,7 +23,6 @@ const Heading = () => {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Calendar/>
     <Clock/>
     <Heading/>
     <App />
